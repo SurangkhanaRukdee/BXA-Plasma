@@ -1,10 +1,10 @@
 # BXA-Plasma
 Log-norm temp distribution of APEC plasmas fitted with Bayesian X-ray Analysis (BXA).
 
-BXA connects the X-ray spectral analysis environments Xspec/Sherpa to the nested sampling algorithm 'UltraNest' for Bayesian Parameter Estimation and Model comparison. 
+BXA (Buchner et al. (2014)) connects the X-ray spectral analysis environments Xspec/Sherpa to the nested sampling algorithm 'UltraNest' for Bayesian Parameter Estimation and Model comparison. 
 It was designed to deal with systematically analysing a large data-set, comparing multiple models and analysing low counts data-set with realistic models.
 
-The BXA-Plasma combine the BXA framework embedded with the PCA-based background model to connect the Astrophysical Plasma Emission Code (APEC, Smith et al. 2001) or VAPEC which allow the variant of the abundances. 
+The BXA-Plasma combine the BXA framework embedded with the PCA-based background model (Simmonds et al.(2018)) to connect the Astrophysical Plasma Emission Code (APEC, Smith et al. (2001)) or VAPEC which allow the variant of the abundances. 
 
 Here we introduced multi temperature distributions instead of using one or two temperature (grid). The temperature distributions resemble a log-Gaussian during quiescent phases, and also during flares, which
 typically exhibit a broader and hotter temperature distribution (Robrade & Schmitt 2005). Therefore, we model the spectra with a plasma featuring a log-Gaussian temperature distribution. This approach is expected to capture the behavior of the plasma temperature better than a single point (kT1 or kT2). In practice, this is achieved by an ensemble of 10 APEC components on a logarithmic temperature grid, where the normalizations follow a bell curve as part of the modeling process in BXA.
