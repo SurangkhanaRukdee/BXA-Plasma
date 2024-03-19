@@ -1,5 +1,5 @@
 # BXA-Plasma
-Log-norm temp distribution of APEC plasmas fitted with BXA.
+Log-norm temp distribution of APEC plasmas fitted with Bayesian X-ray Analysis (BXA).
 
 BXA connects the X-ray spectral analysis environments Xspec/Sherpa to the nested sampling algorithm 'UltraNest' for Bayesian Parameter Estimation and Model comparison. 
 It was designed to deal with systematically analysing a large data-set, comparing multiple models and analysing low counts data-set with realistic models.
